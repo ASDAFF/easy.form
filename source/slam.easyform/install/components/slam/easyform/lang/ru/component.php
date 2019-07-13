@@ -1,13 +1,13 @@
 <?
-$MESS['SLAM_EASYFORM_MESS_OK_TEXT'] = 'Ñîîáùåíèå óñïåøíî îòïðàâëåíî';
-$MESS['SLAM_EASYFORM_MESS_ERROR_TEXT'] = 'Ïðîèçîøëà îøèáêà. Ñîîáùåíèå íå îòïðàâëåíî.';
-$MESS['SLAM_EASYFORM_CAPTCHA_ERROR'] = 'Êîä êàï÷è íå ïðîø¸ë ïðîâåðêó íà ñåðâåðå';
-$MESS['SLAM_EASYFORM_ADD_SELECT_MESS'] = ' (óêàçàí ñâîé âàðèàíò)';
-$MESS['SLAM_EASYFORM_EMPTY_FORM_ERROR'] = 'Âû ïûòàåòåñü îòïðàâèòü ïóñòóþ ôîðìó!';
-$MESS['SLAM_EASYFORM_FIELD_ERROR_MESS'] = '#FIELD_NAME# - îáÿçàòåëüíîå ïîëå';
-$MESS['SLAM_EASYFORM_EMAIL_ERROR'] = 'Âû óêàçàëè íåêîððåêòíûé e-mail';
-$MESS['SLAM_EASYFORM_SEND_ERROR_MESS'] = 'Îøèáêà îòïðàâêè ïèñüìà ïî ïî÷òîâîìó øàáëîíó #MESS_ID#';
-$MESS['SLAM_EASYFORM_SEND_ERROR'] = 'Îøèáêà îòïðàâêè ïèñüìà';
-$MESS['SLAM_EASYFORM_OK_HTML'] = 'Óñïåøíî';
+$MESS['SLAM_EASYFORM_MESS_OK_TEXT'] = 'Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¾';
+$MESS['SLAM_EASYFORM_MESS_ERROR_TEXT'] = 'ÐŸÑ€Ð¾Ð¸Ð·Ð¾ÑˆÐ»Ð° Ð¾ÑˆÐ¸Ð±ÐºÐ°. Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¾.';
+$MESS['SLAM_EASYFORM_CAPTCHA_ERROR'] = 'ÐšÐ¾Ð´ ÐºÐ°Ð¿Ñ‡Ð¸ Ð½Ðµ Ð¿Ñ€Ð¾ÑˆÑ‘Ð» Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÑƒ Ð½Ð° ÑÐµÑ€Ð²ÐµÑ€Ðµ';
+$MESS['SLAM_EASYFORM_ADD_SELECT_MESS'] = ' (ÑƒÐºÐ°Ð·Ð°Ð½ ÑÐ²Ð¾Ð¹ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚)';
+$MESS['SLAM_EASYFORM_EMPTY_FORM_ERROR'] = 'Ð’Ñ‹ Ð¿Ñ‹Ñ‚Ð°ÐµÑ‚ÐµÑÑŒ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð¿ÑƒÑÑ‚ÑƒÑŽ Ñ„Ð¾Ñ€Ð¼Ñƒ!';
+$MESS['SLAM_EASYFORM_FIELD_ERROR_MESS'] = '#FIELD_NAME# - Ð¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ð¿Ð¾Ð»Ðµ';
+$MESS['SLAM_EASYFORM_EMAIL_ERROR'] = 'Ð’Ñ‹ ÑƒÐºÐ°Ð·Ð°Ð»Ð¸ Ð½ÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ñ‹Ð¹ e-mail';
+$MESS['SLAM_EASYFORM_SEND_ERROR_MESS'] = 'ÐžÑˆÐ¸Ð±ÐºÐ° Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸ Ð¿Ð¸ÑÑŒÐ¼Ð° Ð¿Ð¾ Ð¿Ð¾Ñ‡Ñ‚Ð¾Ð²Ð¾Ð¼Ñƒ ÑˆÐ°Ð±Ð»Ð¾Ð½Ñƒ #MESS_ID#';
+$MESS['SLAM_EASYFORM_SEND_ERROR'] = 'ÐžÑˆÐ¸Ð±ÐºÐ° Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸ Ð¿Ð¸ÑÑŒÐ¼Ð°';
+$MESS['SLAM_EASYFORM_OK_HTML'] = 'Ð£ÑÐ¿ÐµÑˆÐ½Ð¾';
 ?>
 

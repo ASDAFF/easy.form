@@ -1,11 +1,11 @@
 <?php
 //CAPTCHA
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_TITLE'] = 'Настройки капчи';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_SAVE'] = 'Сохранить';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_TITLE_INNER'] = 'Как добавить reCAPTCHA от Google, и получить нужные ключи?';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_KEY'] = 'Ключ:';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_SECRET_KEY'] = 'Секретный ключ:';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_ONE'] = '1. Перейдите на официальную страницу <a target="_blank" href="https://www.google.com/recaptcha/admin">reCAPTCHA</a> под любым google-аккаунтом.';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_TWO'] = '2. Далее в настройках "Регистрация сайта" выберите тип "reCAPTCHA v2" и подтип "Флажок" и введите название своего домена.';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_THREE'] = '3. После выбранных настроек жмите «Регистрация». Вы попадете на страницу «Добавление reCAPTCHA на сайт».';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_FOUR'] = '4. Во вкладке «Ключи» скопируйте два ключа «Ключ» и «Секретный ключ» и вставьте их в соответствующие поля ниже.';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_TITLE'] = 'РќР°СЃС‚СЂРѕР№РєРё РєР°РїС‡Рё';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_SAVE'] = 'РЎРѕС…СЂР°РЅРёС‚СЊ';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_TITLE_INNER'] = 'РљР°Рє РґРѕР±Р°РІРёС‚СЊ reCAPTCHA РѕС‚ Google, Рё РїРѕР»СѓС‡РёС‚СЊ РЅСѓР¶РЅС‹Рµ РєР»СЋС‡Рё?';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_KEY'] = 'РљР»СЋС‡:';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_SECRET_KEY'] = 'РЎРµРєСЂРµС‚РЅС‹Р№ РєР»СЋС‡:';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_ONE'] = '1. РџРµСЂРµР№РґРёС‚Рµ РЅР° РѕС„РёС†РёР°Р»СЊРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ <a target="_blank" href="https://www.google.com/recaptcha/admin">reCAPTCHA</a> РїРѕРґ Р»СЋР±С‹Рј google-Р°РєРєР°СѓРЅС‚РѕРј.';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_TWO'] = '2. Р”Р°Р»РµРµ РІ РЅР°СЃС‚СЂРѕР№РєР°С… "Р РµРіРёСЃС‚СЂР°С†РёСЏ СЃР°Р№С‚Р°" РІС‹Р±РµСЂРёС‚Рµ С‚РёРї "reCAPTCHA v2" Рё РїРѕРґС‚РёРї "Р¤Р»Р°Р¶РѕРє" Рё РІРІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ СЃРІРѕРµРіРѕ РґРѕРјРµРЅР°.';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_THREE'] = '3. РџРѕСЃР»Рµ РІС‹Р±СЂР°РЅРЅС‹С… РЅР°СЃС‚СЂРѕРµРє Р¶РјРёС‚Рµ В«Р РµРіРёСЃС‚СЂР°С†РёСЏВ». Р’С‹ РїРѕРїР°РґРµС‚Рµ РЅР° СЃС‚СЂР°РЅРёС†Сѓ В«Р”РѕР±Р°РІР»РµРЅРёРµ reCAPTCHA РЅР° СЃР°Р№С‚В».';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_POPUP_INSTRUCTION_STEP_FOUR'] = '4. Р’Рѕ РІРєР»Р°РґРєРµ В«РљР»СЋС‡РёВ» СЃРєРѕРїРёСЂСѓР№С‚Рµ РґРІР° РєР»СЋС‡Р° В«РљР»СЋС‡В» Рё В«РЎРµРєСЂРµС‚РЅС‹Р№ РєР»СЋС‡В» Рё РІСЃС‚Р°РІСЊС‚Рµ РёС… РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёРµ РїРѕР»СЏ РЅРёР¶Рµ.';

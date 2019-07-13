@@ -1,4 +1,4 @@
 <?
-$MESS['SLAM_EASYFORM_NAME_MODAL_BUTTON'] = "Òåêñò êíîïêè âûçîâà îêíà (data-target=\"#modal[FORM_ID]\")";
-$MESS['SLAM_EASYFORM_DEFAULT_NAME_MODAL_BUTTON'] = 'Îáðàòíàÿ ñâÿçü';
+$MESS['SLAM_EASYFORM_NAME_MODAL_BUTTON'] = "Ð¢ÐµÐºÑÑ‚ ÐºÐ½Ð¾Ð¿ÐºÐ¸ Ð²Ñ‹Ð·Ð¾Ð²Ð° Ð¾ÐºÐ½Ð° (data-target=\"#modal[FORM_ID]\")";
+$MESS['SLAM_EASYFORM_DEFAULT_NAME_MODAL_BUTTON'] = 'ÐžÐ±Ñ€Ð°Ñ‚Ð½Ð°Ñ ÑÐ²ÑÐ·ÑŒ';
 ?>

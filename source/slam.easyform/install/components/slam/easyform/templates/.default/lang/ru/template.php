@@ -1,4 +1,4 @@
 <?
-$MESS['SLAM_EASYFORM_YES'] = 'Äà';
-$MESS['SLAM_EASYFORM_TO_LIST'] = '< Ê ñïèñêó';
+$MESS['SLAM_EASYFORM_YES'] = 'Ð”Ð°';
+$MESS['SLAM_EASYFORM_TO_LIST'] = '< Ðš ÑÐ¿Ð¸ÑÐºÑƒ';
 ?>

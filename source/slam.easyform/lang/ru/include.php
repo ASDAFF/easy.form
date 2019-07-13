@@ -1,5 +1,5 @@
 <?
-$MESS["SLAM_EASYFORM_MAIN_OPTION"] = "Îáùèå ïàðàìåòðû";
-$MESS["SLAM_ERROR"] = "Îáíàðóæåíû îøèáêè";
-$MESS["SLAM_EASYFORM_LIST"] = "SLAM: ðåçóëüòàòû ôîðì îáðàòíîé ñâÿçè";
+$MESS["SLAM_EASYFORM_MAIN_OPTION"] = "ÐžÐ±Ñ‰Ð¸Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹";
+$MESS["SLAM_ERROR"] = "ÐžÐ±Ð½Ð°Ñ€ÑƒÐ¶ÐµÐ½Ñ‹ Ð¾ÑˆÐ¸Ð±ÐºÐ¸";
+$MESS["SLAM_EASYFORM_LIST"] = "SLAM: Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ Ñ„Ð¾Ñ€Ð¼ Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸";
 include 'install/index.php';

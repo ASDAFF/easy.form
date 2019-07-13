@@ -1,179 +1,179 @@
 <?
 //DEFAULT_FIELDS
-$MESS['SLAM_EASYFORM_FIELD_ADD'] = 'Символьный код нового поля, например COMPANY_NAME';
-$MESS['SLAM_EASYFORM_FIELD_TITLE'] = 'Ваше имя';
-$MESS['SLAM_EASYFORM_FIELD_EMAIL'] = 'Ваш E-mail';
-$MESS['SLAM_EASYFORM_FIELD_PHONE'] = 'Мобильный телефон';
-$MESS['SLAM_EASYFORM_FIELD_MALE'] = 'Ваш пол';
-$MESS['SLAM_EASYFORM_FIELD_MALE_VAL_1'] = 'Мужской';
-$MESS['SLAM_EASYFORM_FIELD_MALE_VAL_2'] = 'Женский';
-$MESS['SLAM_EASYFORM_FIELD_BUDGET'] = 'Бюджет';
-$MESS['SLAM_EASYFORM_FIELD_BUDGET_VAL_1'] = 'до 50000 рублей';
-$MESS['SLAM_EASYFORM_FIELD_BUDGET_VAL_2'] = 'от 50000 до 200000 рублей';
-$MESS['SLAM_EASYFORM_FIELD_SERVICES'] = 'Услуга';
-$MESS['SLAM_EASYFORM_FIELD_SERVICES_VAL_1'] = 'Разработка сайта';
-$MESS['SLAM_EASYFORM_FIELD_SERVICES_VAL_2'] = 'Поддержка сайта';
-$MESS['SLAM_EASYFORM_FIELD_ACCEPT'] = 'Согласие на обработку данных';
-$MESS['SLAM_EASYFORM_FIELD_ACCEPT_VAL'] = 'Согласен на обработку <a href="#" target="_blank">персональныx данных</a>';
-$MESS['SLAM_EASYFORM_FIELD_MESSAGE'] = 'Сообщение';
-$MESS['SLAM_EASYFORM_FIELD_HIDDEN'] = 'Скрытое поле';
-$MESS['SLAM_EASYFORM_FIELD_DOCS'] = 'Документ';
+$MESS['SLAM_EASYFORM_FIELD_ADD'] = 'РЎРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ РЅРѕРІРѕРіРѕ РїРѕР»СЏ, РЅР°РїСЂРёРјРµСЂ COMPANY_NAME';
+$MESS['SLAM_EASYFORM_FIELD_TITLE'] = 'Р’Р°С€Рµ РёРјСЏ';
+$MESS['SLAM_EASYFORM_FIELD_EMAIL'] = 'Р’Р°С€ E-mail';
+$MESS['SLAM_EASYFORM_FIELD_PHONE'] = 'РњРѕР±РёР»СЊРЅС‹Р№ С‚РµР»РµС„РѕРЅ';
+$MESS['SLAM_EASYFORM_FIELD_MALE'] = 'Р’Р°С€ РїРѕР»';
+$MESS['SLAM_EASYFORM_FIELD_MALE_VAL_1'] = 'РњСѓР¶СЃРєРѕР№';
+$MESS['SLAM_EASYFORM_FIELD_MALE_VAL_2'] = 'Р–РµРЅСЃРєРёР№';
+$MESS['SLAM_EASYFORM_FIELD_BUDGET'] = 'Р‘СЋРґР¶РµС‚';
+$MESS['SLAM_EASYFORM_FIELD_BUDGET_VAL_1'] = 'РґРѕ 50000 СЂСѓР±Р»РµР№';
+$MESS['SLAM_EASYFORM_FIELD_BUDGET_VAL_2'] = 'РѕС‚ 50000 РґРѕ 200000 СЂСѓР±Р»РµР№';
+$MESS['SLAM_EASYFORM_FIELD_SERVICES'] = 'РЈСЃР»СѓРіР°';
+$MESS['SLAM_EASYFORM_FIELD_SERVICES_VAL_1'] = 'Р Р°Р·СЂР°Р±РѕС‚РєР° СЃР°Р№С‚Р°';
+$MESS['SLAM_EASYFORM_FIELD_SERVICES_VAL_2'] = 'РџРѕРґРґРµСЂР¶РєР° СЃР°Р№С‚Р°';
+$MESS['SLAM_EASYFORM_FIELD_ACCEPT'] = 'РЎРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РґР°РЅРЅС‹С…';
+$MESS['SLAM_EASYFORM_FIELD_ACCEPT_VAL'] = 'РЎРѕРіР»Р°СЃРµРЅ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ <a href="#" target="_blank">РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹x РґР°РЅРЅС‹С…</a>';
+$MESS['SLAM_EASYFORM_FIELD_MESSAGE'] = 'РЎРѕРѕР±С‰РµРЅРёРµ';
+$MESS['SLAM_EASYFORM_FIELD_HIDDEN'] = 'РЎРєСЂС‹С‚РѕРµ РїРѕР»Рµ';
+$MESS['SLAM_EASYFORM_FIELD_DOCS'] = 'Р”РѕРєСѓРјРµРЅС‚';
 
 //VISUAL
-$MESS['SLAM_EASYFORM_UNIQUE_FORM_ID'] = 'ID формы';
-$MESS['SLAM_EASYFORM_FORM_NAME'] = 'Название формы';
-$MESS['SLAM_EASYFORM_FORM_NAME_DEFAULT'] = 'Форма обратной связи ';
-$MESS['SLAM_EASYFORM_WIDTH_FORM'] = 'Ширина формы';
-$MESS['SLAM_EASYFORM_DISPLAY_FIELDS'] = 'Поля (символьный код)';
-$MESS['SLAM_EASYFORM_REQUIRED_FIELDS'] = 'Обязательные поля';
-$MESS['SLAM_EASYFORM_FIELDS_ORDER'] = 'Расположение полей формы';
-$MESS['SLAM_EASYFORM_HIDE_FIELD_NAME'] = 'Скрывать названия полей  формы';
-$MESS['SLAM_EASYFORM_HIDE_ASTERISK'] = 'Убрать двоеточие и звездочки';
-$MESS['SLAM_EASYFORM_FORM_AUTOCOMPLETE'] = 'Автокомплит значений полей формы';
-$MESS['SLAM_EASYFORM_FORM_SUBMIT_VALUE'] = 'Название кнопки';
-$MESS['SLAM_EASYFORM_FORM_SUBMIT_VALUE_DEFAULT'] = 'Отправить';
+$MESS['SLAM_EASYFORM_UNIQUE_FORM_ID'] = 'ID С„РѕСЂРјС‹';
+$MESS['SLAM_EASYFORM_FORM_NAME'] = 'РќР°Р·РІР°РЅРёРµ С„РѕСЂРјС‹';
+$MESS['SLAM_EASYFORM_FORM_NAME_DEFAULT'] = 'Р¤РѕСЂРјР° РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё ';
+$MESS['SLAM_EASYFORM_WIDTH_FORM'] = 'РЁРёСЂРёРЅР° С„РѕСЂРјС‹';
+$MESS['SLAM_EASYFORM_DISPLAY_FIELDS'] = 'РџРѕР»СЏ (СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ)';
+$MESS['SLAM_EASYFORM_REQUIRED_FIELDS'] = 'РћР±СЏР·Р°С‚РµР»СЊРЅС‹Рµ РїРѕР»СЏ';
+$MESS['SLAM_EASYFORM_FIELDS_ORDER'] = 'Р Р°СЃРїРѕР»РѕР¶РµРЅРёРµ РїРѕР»РµР№ С„РѕСЂРјС‹';
+$MESS['SLAM_EASYFORM_HIDE_FIELD_NAME'] = 'РЎРєСЂС‹РІР°С‚СЊ РЅР°Р·РІР°РЅРёСЏ РїРѕР»РµР№  С„РѕСЂРјС‹';
+$MESS['SLAM_EASYFORM_HIDE_ASTERISK'] = 'РЈР±СЂР°С‚СЊ РґРІРѕРµС‚РѕС‡РёРµ Рё Р·РІРµР·РґРѕС‡РєРё';
+$MESS['SLAM_EASYFORM_FORM_AUTOCOMPLETE'] = 'РђРІС‚РѕРєРѕРјРїР»РёС‚ Р·РЅР°С‡РµРЅРёР№ РїРѕР»РµР№ С„РѕСЂРјС‹';
+$MESS['SLAM_EASYFORM_FORM_SUBMIT_VALUE'] = 'РќР°Р·РІР°РЅРёРµ РєРЅРѕРїРєРё';
+$MESS['SLAM_EASYFORM_FORM_SUBMIT_VALUE_DEFAULT'] = 'РћС‚РїСЂР°РІРёС‚СЊ';
 
 //SUBMIT
-$MESS['SLAM_EASYFORM_GROUP_SUBMIT'] = 'Отправка формы';
-$MESS['SLAM_EASYFORM_SEND_AJAX'] = 'Отправлять форму при помощи AJAX?';
-$MESS['SLAM_EASYFORM_SHOW_MODAL'] = 'Показывать результат в модальном окне';
-$MESS['SLAM_EASYFORM_FUNCTION_CALLBACKS_SUCCESS'] = 'Название функции при успешной отправки ( "_callbacks" )';
-$MESS['SLAM_EASYFORM_OK_MESSAGE'] = 'Сообщение об успешной отправке';
-$MESS['SLAM_EASYFORM_OK_TEXT'] = 'Ваше сообщение отправлено. Мы свяжемся с вами в течение 2х часов';
-$MESS['SLAM_EASYFORM_ERROR_MESSAGE'] = 'Сообщение об ошибке';
-$MESS['SLAM_EASYFORM_ERROR_TEXT'] = 'Произошла ошибка. Сообщение не отправлено.';
-$MESS['SLAM_EASYFORM_TITLE_SHOW_MODAL'] = 'Заголовок окна';
-$MESS['SLAM_EASYFORM_DEFAULT_TITLE_SHOW_MODAL'] = 'Спасибо!';
+$MESS['SLAM_EASYFORM_GROUP_SUBMIT'] = 'РћС‚РїСЂР°РІРєР° С„РѕСЂРјС‹';
+$MESS['SLAM_EASYFORM_SEND_AJAX'] = 'РћС‚РїСЂР°РІР»СЏС‚СЊ С„РѕСЂРјСѓ РїСЂРё РїРѕРјРѕС‰Рё AJAX?';
+$MESS['SLAM_EASYFORM_SHOW_MODAL'] = 'РџРѕРєР°Р·С‹РІР°С‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚ РІ РјРѕРґР°Р»СЊРЅРѕРј РѕРєРЅРµ';
+$MESS['SLAM_EASYFORM_FUNCTION_CALLBACKS_SUCCESS'] = 'РќР°Р·РІР°РЅРёРµ С„СѓРЅРєС†РёРё РїСЂРё СѓСЃРїРµС€РЅРѕР№ РѕС‚РїСЂР°РІРєРё ( "_callbacks" )';
+$MESS['SLAM_EASYFORM_OK_MESSAGE'] = 'РЎРѕРѕР±С‰РµРЅРёРµ РѕР± СѓСЃРїРµС€РЅРѕР№ РѕС‚РїСЂР°РІРєРµ';
+$MESS['SLAM_EASYFORM_OK_TEXT'] = 'Р’Р°С€Рµ СЃРѕРѕР±С‰РµРЅРёРµ РѕС‚РїСЂР°РІР»РµРЅРѕ. РњС‹ СЃРІСЏР¶РµРјСЃСЏ СЃ РІР°РјРё РІ С‚РµС‡РµРЅРёРµ 2С… С‡Р°СЃРѕРІ';
+$MESS['SLAM_EASYFORM_ERROR_MESSAGE'] = 'РЎРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ';
+$MESS['SLAM_EASYFORM_ERROR_TEXT'] = 'РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР°. РЎРѕРѕР±С‰РµРЅРёРµ РЅРµ РѕС‚РїСЂР°РІР»РµРЅРѕ.';
+$MESS['SLAM_EASYFORM_TITLE_SHOW_MODAL'] = 'Р—Р°РіРѕР»РѕРІРѕРє РѕРєРЅР°';
+$MESS['SLAM_EASYFORM_DEFAULT_TITLE_SHOW_MODAL'] = 'РЎРїР°СЃРёР±Рѕ!';
 
 //MAIL
-$MESS['SLAM_EASYFORM_GROUP_MAIL'] = 'Настройки отправки писем';
-$MESS['SLAM_EASYFORM_ENABLE_SEND_MAIL'] = 'Включить отправку писем';
-$MESS['SLAM_EASYFORM_CREATE_SEND_MAIL_BUTTON'] = 'Создание нового почтового шаблона';
-$MESS['SLAM_EASYFORM_CREATE_SEND_MAIL'] = 'Создать шаблон';
-$MESS['SLAM_EASYFORM_EMAIL_TEMPLATES'] = 'Шаблон письма';
-$MESS['SLAM_EASYFORM_REPLACE_FIELD_FROM'] = 'Заменять в письме поле "От" на e-mail посетителя';
+$MESS['SLAM_EASYFORM_GROUP_MAIL'] = 'РќР°СЃС‚СЂРѕР№РєРё РѕС‚РїСЂР°РІРєРё РїРёСЃРµРј';
+$MESS['SLAM_EASYFORM_ENABLE_SEND_MAIL'] = 'Р’РєР»СЋС‡РёС‚СЊ РѕС‚РїСЂР°РІРєСѓ РїРёСЃРµРј';
+$MESS['SLAM_EASYFORM_CREATE_SEND_MAIL_BUTTON'] = 'РЎРѕР·РґР°РЅРёРµ РЅРѕРІРѕРіРѕ РїРѕС‡С‚РѕРІРѕРіРѕ С€Р°Р±Р»РѕРЅР°';
+$MESS['SLAM_EASYFORM_CREATE_SEND_MAIL'] = 'РЎРѕР·РґР°С‚СЊ С€Р°Р±Р»РѕРЅ';
+$MESS['SLAM_EASYFORM_EMAIL_TEMPLATES'] = 'РЁР°Р±Р»РѕРЅ РїРёСЃСЊРјР°';
+$MESS['SLAM_EASYFORM_REPLACE_FIELD_FROM'] = 'Р—Р°РјРµРЅСЏС‚СЊ РІ РїРёСЃСЊРјРµ РїРѕР»Рµ "РћС‚" РЅР° e-mail РїРѕСЃРµС‚РёС‚РµР»СЏ';
 $MESS['SLAM_EASYFORM_EMAIL_FROM'] = '#EMAIL_FROM#';
 $MESS['SLAM_EASYFORM_EVEN_EMAIL_TO'] = '#EMAIL_TO#';
-$MESS['SLAM_EASYFORM_MAIL_SUBJECT_ADMIN'] = 'Тема сообщения для администратора';
-$MESS['SLAM_EASYFORM_MAIL_SUBJECT_ADMIN_DEFAULT'] = '#SITE_NAME#: Сообщение из формы обратной связи';
+$MESS['SLAM_EASYFORM_MAIL_SUBJECT_ADMIN'] = 'РўРµРјР° СЃРѕРѕР±С‰РµРЅРёСЏ РґР»СЏ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂР°';
+$MESS['SLAM_EASYFORM_MAIL_SUBJECT_ADMIN_DEFAULT'] = '#SITE_NAME#: РЎРѕРѕР±С‰РµРЅРёРµ РёР· С„РѕСЂРјС‹ РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё';
 
-$MESS['SLAM_EASYFORM_MAIL_SUBJECT_SENDER'] = 'Тема сообщения для отправителя';
-$MESS['SLAM_EASYFORM_MAIL_SUBJECT_SENDER_DEFAULT'] = '#SITE_NAME#: Сообщение из формы обратной связи';
-$MESS['SLAM_EASYFORM_EMAIL_TEMPLATES_SENDER'] = 'Шаблон письма для отправителя';
+$MESS['SLAM_EASYFORM_MAIL_SUBJECT_SENDER'] = 'РўРµРјР° СЃРѕРѕР±С‰РµРЅРёСЏ РґР»СЏ РѕС‚РїСЂР°РІРёС‚РµР»СЏ';
+$MESS['SLAM_EASYFORM_MAIL_SUBJECT_SENDER_DEFAULT'] = '#SITE_NAME#: РЎРѕРѕР±С‰РµРЅРёРµ РёР· С„РѕСЂРјС‹ РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё';
+$MESS['SLAM_EASYFORM_EMAIL_TEMPLATES_SENDER'] = 'РЁР°Р±Р»РѕРЅ РїРёСЃСЊРјР° РґР»СЏ РѕС‚РїСЂР°РІРёС‚РµР»СЏ';
 
-$MESS['SLAM_EASYFORM_EMAIL_TO'] = 'E-mail, на который будет отправлено письмо (по умолчанию используется из настроек модуля)';
-$MESS['SLAM_EASYFORM_BCC'] = 'Скрытая копия';
-$MESS['SLAM_EASYFORM_SEND_EMAIL_FILE'] = 'Прикладывать файлы к письму';
-$MESS['SLAM_EASYFORM_SEND_FROM'] = 'Отправлять письмо отправителю';
+$MESS['SLAM_EASYFORM_EMAIL_TO'] = 'E-mail, РЅР° РєРѕС‚РѕСЂС‹Р№ Р±СѓРґРµС‚ РѕС‚РїСЂР°РІР»РµРЅРѕ РїРёСЃСЊРјРѕ (РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РёР· РЅР°СЃС‚СЂРѕРµРє РјРѕРґСѓР»СЏ)';
+$MESS['SLAM_EASYFORM_BCC'] = 'РЎРєСЂС‹С‚Р°СЏ РєРѕРїРёСЏ';
+$MESS['SLAM_EASYFORM_SEND_EMAIL_FILE'] = 'РџСЂРёРєР»Р°РґС‹РІР°С‚СЊ С„Р°Р№Р»С‹ Рє РїРёСЃСЊРјСѓ';
+$MESS['SLAM_EASYFORM_SEND_FROM'] = 'РћС‚РїСЂР°РІР»СЏС‚СЊ РїРёСЃСЊРјРѕ РѕС‚РїСЂР°РІРёС‚РµР»СЋ';
 $MESS['SLAM_EASYFORM_EVEN_BCC'] = '#EMAIL_BCC#';
-$MESS['SLAM_EASYFORM_RU_NAME'] = 'Отправка сообщения через суперформу SLAM';
-$MESS['SLAM_EASYFORM_RU_DESCRIPTION'] = '=== Служебные макросы ===
-#AUTHOR_NAME# - Автор сообщения
-#SUBJECT# - Тема письма
-#FORM_NAME# - Название формы
-#FORM_FIELDS# - Содержание всех полей в табличном либо строчном виде (в зависимости от настроек компонента формы)
-#EMAIL_FROM# - Email отправителя письма (E-mail по-умолчанию, либо значение поля формы "E-mail", в зависимости от настроек)
-#EMAIL_TO# - Email получателя письма (устанавливается в настройках комопнента)
-#EMAIL_BCC# - Email скрытой копии (устанавливается в настройках комопнента)
+$MESS['SLAM_EASYFORM_RU_NAME'] = 'РћС‚РїСЂР°РІРєР° СЃРѕРѕР±С‰РµРЅРёСЏ С‡РµСЂРµР· СЃСѓРїРµСЂС„РѕСЂРјСѓ SLAM';
+$MESS['SLAM_EASYFORM_RU_DESCRIPTION'] = '=== РЎР»СѓР¶РµР±РЅС‹Рµ РјР°РєСЂРѕСЃС‹ ===
+#AUTHOR_NAME# - РђРІС‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ
+#SUBJECT# - РўРµРјР° РїРёСЃСЊРјР°
+#FORM_NAME# - РќР°Р·РІР°РЅРёРµ С„РѕСЂРјС‹
+#FORM_FIELDS# - РЎРѕРґРµСЂР¶Р°РЅРёРµ РІСЃРµС… РїРѕР»РµР№ РІ С‚Р°Р±Р»РёС‡РЅРѕРј Р»РёР±Рѕ СЃС‚СЂРѕС‡РЅРѕРј РІРёРґРµ (РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РЅР°СЃС‚СЂРѕРµРє РєРѕРјРїРѕРЅРµРЅС‚Р° С„РѕСЂРјС‹)
+#EMAIL_FROM# - Email РѕС‚РїСЂР°РІРёС‚РµР»СЏ РїРёСЃСЊРјР° (E-mail РїРѕ-СѓРјРѕР»С‡Р°РЅРёСЋ, Р»РёР±Рѕ Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ С„РѕСЂРјС‹ "E-mail", РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РЅР°СЃС‚СЂРѕРµРє)
+#EMAIL_TO# - Email РїРѕР»СѓС‡Р°С‚РµР»СЏ РїРёСЃСЊРјР° (СѓСЃС‚Р°РЅР°РІР»РёРІР°РµС‚СЃСЏ РІ РЅР°СЃС‚СЂРѕР№РєР°С… РєРѕРјРѕРїРЅРµРЅС‚Р°)
+#EMAIL_BCC# - Email СЃРєСЂС‹С‚РѕР№ РєРѕРїРёРё (СѓСЃС‚Р°РЅР°РІР»РёРІР°РµС‚СЃСЏ РІ РЅР°СЃС‚СЂРѕР№РєР°С… РєРѕРјРѕРїРЅРµРЅС‚Р°)
 
-=== Макросы полей формы по умолчанию ===
-#TITLE# - Ваше Имя
-#WORK_POSITION# - Должность
-#WORK_COMPANY# - Компания
+=== РњР°РєСЂРѕСЃС‹ РїРѕР»РµР№ С„РѕСЂРјС‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ ===
+#TITLE# - Р’Р°С€Рµ РРјСЏ
+#WORK_POSITION# - Р”РѕР»Р¶РЅРѕСЃС‚СЊ
+#WORK_COMPANY# - РљРѕРјРїР°РЅРёСЏ
 #EMAIL# - E-mail
-#PHONE# - Мобильный телефон
-#ADDRESS# - Адрес
-#SERVICES# - Услуга
-#MESSAGE# - Сообщение
+#PHONE# - РњРѕР±РёР»СЊРЅС‹Р№ С‚РµР»РµС„РѕРЅ
+#ADDRESS# - РђРґСЂРµСЃ
+#SERVICES# - РЈСЃР»СѓРіР°
+#MESSAGE# - РЎРѕРѕР±С‰РµРЅРёРµ
 
-=== Любые поля формы===
-Значение символьного кода любого поля, например:
+=== Р›СЋР±С‹Рµ РїРѕР»СЏ С„РѕСЂРјС‹===
+Р—РЅР°С‡РµРЅРёРµ СЃРёРјРІРѕР»СЊРЅРѕРіРѕ РєРѕРґР° Р»СЋР±РѕРіРѕ РїРѕР»СЏ, РЅР°РїСЂРёРјРµСЂ:
 #EMAIL#
 
-=== Системные макросы ===
+=== РЎРёСЃС‚РµРјРЅС‹Рµ РјР°РєСЂРѕСЃС‹ ===
 ';
 $MESS['SLAM_EASYFORM_SUBJECT'] = '#SUBJECT#';
-$MESS['SLAM_EASYFORM_MESSAGE'] = 'Информационное сообщение сайта #SITE_NAME#<br>
+$MESS['SLAM_EASYFORM_MESSAGE'] = 'РРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ СЃР°Р№С‚Р° #SITE_NAME#<br>
 ------------------------------------------<br>
 <br>
-Вам было отправлено сообщение через форму #FORM_NAME#<br>
+Р’Р°Рј Р±С‹Р»Рѕ РѕС‚РїСЂР°РІР»РµРЅРѕ СЃРѕРѕР±С‰РµРЅРёРµ С‡РµСЂРµР· С„РѕСЂРјСѓ #FORM_NAME#<br>
 <br>
-Текст сообщения:<br>
+РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ:<br>
 #FORM_FIELDS#<br>
 <br>
-Сообщение сгенерировано автоматически.
+РЎРѕРѕР±С‰РµРЅРёРµ СЃРіРµРЅРµСЂРёСЂРѕРІР°РЅРѕ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё.
 ';
 
 //IBLOCK
-$MESS['SLAM_EASYFORM_GROUP_WRITE_IB'] = 'Запись результатов в инфоблок';
-$MESS['SLAM_EASYFORM_USE_IBLOCK_WRITE'] = 'Записывать результаты в ИБ';
-$MESS['SLAM_EASYFORM_IBLOCK_PROP_ADD_NAME'] = 'Создание нового ИБ';
-$MESS["SLAM_EASYFORM_IBLOCK_DESC_LIST_TYPE"] = "Тип информационного блока (используется только для проверки)";
-$MESS["SLAM_EASYFORM_IBLOCK_DESC_LIST_ID"] = "Код информационного блока для хранения результата";
-$MESS['SLAM_EASYFORM_ACTIVE_ELEMENT'] = "Деактивировать элемент при добавлении?";
-$MESS['SLAM_EASYFORM_CATEGORY_IBLOCK_FIELD'] = "Свойство инфоблока, в которое будет записаны данные";
-$MESS['SLAM_EASYFORM_IBLOCK_FIELD_NO_WRITE'] = "Не записывать";
-$MESS['SLAM_EASYFORM_IBLOCK_FIELD_NAME'] = "Название";
-$MESS['SLAM_EASYFORM_IBLOCK_FIELD_DETAIL_TEXT'] = "Детальное описание";
-$MESS['SLAM_EASYFORM_IBLOCK_FIELD_PREVIEW_TEXT'] = "Описание для анонса";
-$MESS['SLAM_EASYFORM_IBLOCK_FIELD_FORM'] = "Создать автоматически";
-$MESS['SLAM_EASYFORM_IBLOCK_LANG_RU_NAME'] = "Результаты форм";
+$MESS['SLAM_EASYFORM_GROUP_WRITE_IB'] = 'Р—Р°РїРёСЃСЊ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РІ РёРЅС„РѕР±Р»РѕРє';
+$MESS['SLAM_EASYFORM_USE_IBLOCK_WRITE'] = 'Р—Р°РїРёСЃС‹РІР°С‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚С‹ РІ РР‘';
+$MESS['SLAM_EASYFORM_IBLOCK_PROP_ADD_NAME'] = 'РЎРѕР·РґР°РЅРёРµ РЅРѕРІРѕРіРѕ РР‘';
+$MESS["SLAM_EASYFORM_IBLOCK_DESC_LIST_TYPE"] = "РўРёРї РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ Р±Р»РѕРєР° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РґР»СЏ РїСЂРѕРІРµСЂРєРё)";
+$MESS["SLAM_EASYFORM_IBLOCK_DESC_LIST_ID"] = "РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ Р±Р»РѕРєР° РґР»СЏ С…СЂР°РЅРµРЅРёСЏ СЂРµР·СѓР»СЊС‚Р°С‚Р°";
+$MESS['SLAM_EASYFORM_ACTIVE_ELEMENT'] = "Р”РµР°РєС‚РёРІРёСЂРѕРІР°С‚СЊ СЌР»РµРјРµРЅС‚ РїСЂРё РґРѕР±Р°РІР»РµРЅРёРё?";
+$MESS['SLAM_EASYFORM_CATEGORY_IBLOCK_FIELD'] = "РЎРІРѕР№СЃС‚РІРѕ РёРЅС„РѕР±Р»РѕРєР°, РІ РєРѕС‚РѕСЂРѕРµ Р±СѓРґРµС‚ Р·Р°РїРёСЃР°РЅС‹ РґР°РЅРЅС‹Рµ";
+$MESS['SLAM_EASYFORM_IBLOCK_FIELD_NO_WRITE'] = "РќРµ Р·Р°РїРёСЃС‹РІР°С‚СЊ";
+$MESS['SLAM_EASYFORM_IBLOCK_FIELD_NAME'] = "РќР°Р·РІР°РЅРёРµ";
+$MESS['SLAM_EASYFORM_IBLOCK_FIELD_DETAIL_TEXT'] = "Р”РµС‚Р°Р»СЊРЅРѕРµ РѕРїРёСЃР°РЅРёРµ";
+$MESS['SLAM_EASYFORM_IBLOCK_FIELD_PREVIEW_TEXT'] = "РћРїРёСЃР°РЅРёРµ РґР»СЏ Р°РЅРѕРЅСЃР°";
+$MESS['SLAM_EASYFORM_IBLOCK_FIELD_FORM'] = "РЎРѕР·РґР°С‚СЊ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё";
+$MESS['SLAM_EASYFORM_IBLOCK_LANG_RU_NAME'] = "Р РµР·СѓР»СЊС‚Р°С‚С‹ С„РѕСЂРј";
 $MESS['SLAM_EASYFORM_IBLOCK_LANG_EN_NAME'] = "Form result";
-$MESS['SLAM_EASYFORM_IBLOCK_PROP_RU_NAME'] = "новый ИБ?";
-$MESS['SLAM_EASYFORM_CREATE_SEND_IBLOCK_BUTTON'] = "Создать ИБ";
+$MESS['SLAM_EASYFORM_IBLOCK_PROP_RU_NAME'] = "РЅРѕРІС‹Р№ РР‘?";
+$MESS['SLAM_EASYFORM_CREATE_SEND_IBLOCK_BUTTON'] = "РЎРѕР·РґР°С‚СЊ РР‘";
 
 //CAPTCHA
-$MESS['SLAM_EASYFORM_CAPTCHA'] = 'Капча';
-$MESS['SLAM_EASYFORM_USE_CAPTCHA'] = 'Использовать капчу reCAPTCHA';
-$MESS['SLAM_EASYFORM_USE_CAPTCHA_TIP'] = 'Умная капча от Google';
-$MESS['SLAM_EASYFORM_CAPTCHA_BUTTON_NAME'] = 'Настроить капчу';
-$MESS['SLAM_EASYFORM_CAPTCHA_KEY'] = 'Ключ reCAPTCHA';
-$MESS['SLAM_EASYFORM_CAPTCHA_KEY_TIP'] = 'Получить ключ вы можете на сайте https://www.google.com/recaptcha/admin';
-$MESS['SLAM_EASYFORM_CAPTCHA_SECRET_KEY'] = 'Секретный ключ reCAPTCHA';
-$MESS['SLAM_EASYFORM_CAPTCHA_SECRET_KEY_TIP'] = 'Получить секретный ключ вы можете на сайте https://www.google.com/recaptcha/admin';
-$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_TITLE'] = 'Заголовок';
+$MESS['SLAM_EASYFORM_CAPTCHA'] = 'РљР°РїС‡Р°';
+$MESS['SLAM_EASYFORM_USE_CAPTCHA'] = 'РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР°РїС‡Сѓ reCAPTCHA';
+$MESS['SLAM_EASYFORM_USE_CAPTCHA_TIP'] = 'РЈРјРЅР°СЏ РєР°РїС‡Р° РѕС‚ Google';
+$MESS['SLAM_EASYFORM_CAPTCHA_BUTTON_NAME'] = 'РќР°СЃС‚СЂРѕРёС‚СЊ РєР°РїС‡Сѓ';
+$MESS['SLAM_EASYFORM_CAPTCHA_KEY'] = 'РљР»СЋС‡ reCAPTCHA';
+$MESS['SLAM_EASYFORM_CAPTCHA_KEY_TIP'] = 'РџРѕР»СѓС‡РёС‚СЊ РєР»СЋС‡ РІС‹ РјРѕР¶РµС‚Рµ РЅР° СЃР°Р№С‚Рµ https://www.google.com/recaptcha/admin';
+$MESS['SLAM_EASYFORM_CAPTCHA_SECRET_KEY'] = 'РЎРµРєСЂРµС‚РЅС‹Р№ РєР»СЋС‡ reCAPTCHA';
+$MESS['SLAM_EASYFORM_CAPTCHA_SECRET_KEY_TIP'] = 'РџРѕР»СѓС‡РёС‚СЊ СЃРµРєСЂРµС‚РЅС‹Р№ РєР»СЋС‡ РІС‹ РјРѕР¶РµС‚Рµ РЅР° СЃР°Р№С‚Рµ https://www.google.com/recaptcha/admin';
+$MESS['SLAM_EASYFORM_FIELD_CAPTCHA_TITLE'] = 'Р—Р°РіРѕР»РѕРІРѕРє';
 
 //SUBMIT WARNING
-$MESS['SLAM_EASYFORM_GROUP_PERSONAL_DATA'] = 'Обработка персональных данных';
-$MESS['SLAM_EASYFORM_USE_MODULE_VARNING'] = 'Использовать сообщение из настроек модуля';
-$MESS['SLAM_EASYFORM_FORM_SUBMIT_VARNING'] = 'Сообщение, выводимое перед кнопкой';
-$MESS['SLAM_EASYFORM_FORM_SUBMIT_VARNING_TIP'] = 'Можно использовать вместо названия кнопки шаблон #BUTTON#';
-$MESS['SLAM_EASYFORM_FORM_SUBMIT_VARNING_DEFAULT'] = 'Нажимая на кнопку "#BUTTON#", вы даете согласие на обработку <a target="_blank" href="#">персональных данных</a>';
+$MESS['SLAM_EASYFORM_GROUP_PERSONAL_DATA'] = 'РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…';
+$MESS['SLAM_EASYFORM_USE_MODULE_VARNING'] = 'РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ РёР· РЅР°СЃС‚СЂРѕРµРє РјРѕРґСѓР»СЏ';
+$MESS['SLAM_EASYFORM_FORM_SUBMIT_VARNING'] = 'РЎРѕРѕР±С‰РµРЅРёРµ, РІС‹РІРѕРґРёРјРѕРµ РїРµСЂРµРґ РєРЅРѕРїРєРѕР№';
+$MESS['SLAM_EASYFORM_FORM_SUBMIT_VARNING_TIP'] = 'РњРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РІРјРµСЃС‚Рѕ РЅР°Р·РІР°РЅРёСЏ РєРЅРѕРїРєРё С€Р°Р±Р»РѕРЅ #BUTTON#';
+$MESS['SLAM_EASYFORM_FORM_SUBMIT_VARNING_DEFAULT'] = 'РќР°Р¶РёРјР°СЏ РЅР° РєРЅРѕРїРєСѓ "#BUTTON#", РІС‹ РґР°РµС‚Рµ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ <a target="_blank" href="#">РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a>';
 
 //GROUP_JS_VALIDATE_SETTINGS
 $MESS['SLAM_EASYFORM_GROUPS_JS_VALIDATE_SETTINGS'] = "JS Bootstrap Validators";
-$MESS['SLAM_EASYFORM_USE_FORMVALIDATION_JS'] = 'Проверять поля через JS Bootstrap Validators';
-$MESS['SLAM_EASYFORM_HIDE_FORMVALIDATION_TEXT'] = 'Скрыть сообщения об ошибках (красная обводка полей останется)';
-$MESS['SLAM_EASYFORM_INCLUDE_FORMVALIDATION_LIBS'] = 'Подключить библиотеку JS Bootstrap Validators';
+$MESS['SLAM_EASYFORM_USE_FORMVALIDATION_JS'] = 'РџСЂРѕРІРµСЂСЏС‚СЊ РїРѕР»СЏ С‡РµСЂРµР· JS Bootstrap Validators';
+$MESS['SLAM_EASYFORM_HIDE_FORMVALIDATION_TEXT'] = 'РЎРєСЂС‹С‚СЊ СЃРѕРѕР±С‰РµРЅРёСЏ РѕР± РѕС€РёР±РєР°С… (РєСЂР°СЃРЅР°СЏ РѕР±РІРѕРґРєР° РїРѕР»РµР№ РѕСЃС‚Р°РЅРµС‚СЃСЏ)';
+$MESS['SLAM_EASYFORM_INCLUDE_FORMVALIDATION_LIBS'] = 'РџРѕРґРєР»СЋС‡РёС‚СЊ Р±РёР±Р»РёРѕС‚РµРєСѓ JS Bootstrap Validators';
 
 //GROUP_JS_LIB_SETTINGS
-$MESS['SLAM_EASYFORM_GROUPS_JS_LIB_SETTINGS'] = "JS-плагины";
-$MESS['SLAM_EASYFORM_INCLUDE_JQUERY'] = 'Подключить jQuery-1.12.4';
-$MESS['SLAM_EASYFORM_USE_BOOTSRAP_CSS'] = 'Подключить стандартные стили Bootstrap 3';
-$MESS['SLAM_EASYFORM_USE_BOOTSRAP_JS'] = 'Подключить стандартный JS Bootstrap 3';
-$MESS['SLAM_EASYFORM_USE_DROPZONE_JS'] = 'Подключить загрузчик DragnDrop';
-$MESS['SLAM_EASYFORM_USE_BOOTSRAP_JS_TIP'] = 'Необходим для работы модального окна';
-$MESS['SLAM_EASYFORM_USE_INPUTMASK_JS'] = 'Подключить JS Inputmask';
-$MESS['SLAM_EASYFORM_USE_INPUTMASK'] = 'Включить маску';
+$MESS['SLAM_EASYFORM_GROUPS_JS_LIB_SETTINGS'] = "JS-РїР»Р°РіРёРЅС‹";
+$MESS['SLAM_EASYFORM_INCLUDE_JQUERY'] = 'РџРѕРґРєР»СЋС‡РёС‚СЊ jQuery-1.12.4';
+$MESS['SLAM_EASYFORM_USE_BOOTSRAP_CSS'] = 'РџРѕРґРєР»СЋС‡РёС‚СЊ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рµ СЃС‚РёР»Рё Bootstrap 3';
+$MESS['SLAM_EASYFORM_USE_BOOTSRAP_JS'] = 'РџРѕРґРєР»СЋС‡РёС‚СЊ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ JS Bootstrap 3';
+$MESS['SLAM_EASYFORM_USE_DROPZONE_JS'] = 'РџРѕРґРєР»СЋС‡РёС‚СЊ Р·Р°РіСЂСѓР·С‡РёРє DragnDrop';
+$MESS['SLAM_EASYFORM_USE_BOOTSRAP_JS_TIP'] = 'РќРµРѕР±С…РѕРґРёРј РґР»СЏ СЂР°Р±РѕС‚С‹ РјРѕРґР°Р»СЊРЅРѕРіРѕ РѕРєРЅР°';
+$MESS['SLAM_EASYFORM_USE_INPUTMASK_JS'] = 'РџРѕРґРєР»СЋС‡РёС‚СЊ JS Inputmask';
+$MESS['SLAM_EASYFORM_USE_INPUTMASK'] = 'Р’РєР»СЋС‡РёС‚СЊ РјР°СЃРєСѓ';
 
 //GROUP FIELDS
-$MESS['SLAM_EASYFORM_GROUP_FIELD_TITLE'] = ' - настройки поля';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_NAME'] = 'Название';
-$MESS['SLAM_EASYFORM_TYPE_FIELD'] = 'Тип поля';
-$MESS['SLAM_EASYFORM_TYPE_FIELD_ACCEPT'] = '(Согласие)';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_VIEW'] = 'Горизонтальное отображение значений';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_REQ'] = 'Дополнительные правила валидации';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_VALUE'] = 'Значение';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_SELECT_ADD'] = 'Дополнительное значение (вводимое вручную)';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_SELECTMULTISELECT_ADD'] = 'Разрешить выбирать несколько пунктов одновременно (multiselect)';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_SELECT_ADD_DEF'] = 'Другое (напишите свой вариант)';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_FILE_EXTENSION'] = 'Допустимые расширения файла (через запятую)';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_FILE_MAX_SIZE'] = 'Максимальный размер файла (в Kb)';
-$MESS['SLAM_EASYFORM_GROUP_FIELD_INPUTMASK_TEMP'] = 'Шаблон маски';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_TITLE'] = ' - РЅР°СЃС‚СЂРѕР№РєРё РїРѕР»СЏ';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_NAME'] = 'РќР°Р·РІР°РЅРёРµ';
+$MESS['SLAM_EASYFORM_TYPE_FIELD'] = 'РўРёРї РїРѕР»СЏ';
+$MESS['SLAM_EASYFORM_TYPE_FIELD_ACCEPT'] = '(РЎРѕРіР»Р°СЃРёРµ)';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_VIEW'] = 'Р“РѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕРµ РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ Р·РЅР°С‡РµРЅРёР№';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_REQ'] = 'Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РїСЂР°РІРёР»Р° РІР°Р»РёРґР°С†РёРё';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_VALUE'] = 'Р—РЅР°С‡РµРЅРёРµ';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_SELECT_ADD'] = 'Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ (РІРІРѕРґРёРјРѕРµ РІСЂСѓС‡РЅСѓСЋ)';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_SELECTMULTISELECT_ADD'] = 'Р Р°Р·СЂРµС€РёС‚СЊ РІС‹Р±РёСЂР°С‚СЊ РЅРµСЃРєРѕР»СЊРєРѕ РїСѓРЅРєС‚РѕРІ РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ (multiselect)';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_SELECT_ADD_DEF'] = 'Р”СЂСѓРіРѕРµ (РЅР°РїРёС€РёС‚Рµ СЃРІРѕР№ РІР°СЂРёР°РЅС‚)';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_FILE_EXTENSION'] = 'Р”РѕРїСѓСЃС‚РёРјС‹Рµ СЂР°СЃС€РёСЂРµРЅРёСЏ С„Р°Р№Р»Р° (С‡РµСЂРµР· Р·Р°РїСЏС‚СѓСЋ)';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_FILE_MAX_SIZE'] = 'РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЂР°Р·РјРµСЂ С„Р°Р№Р»Р° (РІ Kb)';
+$MESS['SLAM_EASYFORM_GROUP_FIELD_INPUTMASK_TEMP'] = 'РЁР°Р±Р»РѕРЅ РјР°СЃРєРё';
 
 //VALIDATION_MESSAGES
-$MESS['SLAM_EASYFORM_FIELD_VALIDATION_MESSAGE'] = 'Текст при ошибке';
-$MESS['SLAM_EASYFORM_FIELD_VALIDATION_ADDITIONALLY_MESSAGE'] = 'Дополнительные параметры валидации';
-$MESS['SLAM_EASYFORM_FIELD_VALIDATION_MESSAGE_DEFAULT'] = 'Обязательное поле';
-$MESS['SLAM_EASYFORM_FIELD_VALIDATION_MESSAGE_EMAIL_DEFAULT'] = 'E-mail введен некорректно';
+$MESS['SLAM_EASYFORM_FIELD_VALIDATION_MESSAGE'] = 'РўРµРєСЃС‚ РїСЂРё РѕС€РёР±РєРµ';
+$MESS['SLAM_EASYFORM_FIELD_VALIDATION_ADDITIONALLY_MESSAGE'] = 'Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РІР°Р»РёРґР°С†РёРё';
+$MESS['SLAM_EASYFORM_FIELD_VALIDATION_MESSAGE_DEFAULT'] = 'РћР±СЏР·Р°С‚РµР»СЊРЅРѕРµ РїРѕР»Рµ';
+$MESS['SLAM_EASYFORM_FIELD_VALIDATION_MESSAGE_EMAIL_DEFAULT'] = 'E-mail РІРІРµРґРµРЅ РЅРµРєРѕСЂСЂРµРєС‚РЅРѕ';
 ?>

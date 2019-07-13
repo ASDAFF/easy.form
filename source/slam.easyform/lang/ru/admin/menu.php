@@ -1,2 +1,2 @@
 <?
-$MESS["SLAM_EASYFORM_MODULE"] = "SLAM: ðåçóëüòàòû ôîðì îáðàòíîé ñâÿçè";
+$MESS["SLAM_EASYFORM_MODULE"] = "SLAM: Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ Ñ„Ð¾Ñ€Ð¼ Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸";

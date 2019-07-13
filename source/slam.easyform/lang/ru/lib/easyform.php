@@ -1,10 +1,10 @@
 <?
 $MESS['SLAM_EASYFORM_ENTITY_ID_FIELD'] = 'ID';
-$MESS['SLAM_EASYFORM_ENTITY_DATE_CREATE_FIELD'] = 'Äàòà ñîçäàíèÿ';
-$MESS['SLAM_EASYFORM_ENTITY_NAME_FIELD'] = 'Íàçâàíèå ôîðìû';
-$MESS['SLAM_EASYFORM_ENTITY_C_FIELDS_FIELD'] = 'Ïîëÿ';
-$MESS["SLAM_EASYFORM_DEL"] = "Âû óâåðåíû, ÷òî õîòèòå óäàëèòü?";
-$MESS["SLAM_EASYFORM_DELETE"] = "Óäàëèòü";
-$MESS["SLAM_EASYFORM_LIST"] = "Ïðîäóìàííàÿ ôîðìà îáðàòíîé ñâÿçè";
-$MESS["SLAM_EASYFORM_DELETE_ERROR"] = "Îøèáêà óäàëåíèÿ. Âîçìîæíî åñòü ññûëàþùèåñÿ îáúåêòû.";
-$MESS["SLAM_EASYFORM_GET_NAV_PRINT"] = "Ñòðàíèöà";
+$MESS['SLAM_EASYFORM_ENTITY_DATE_CREATE_FIELD'] = 'Ð”Ð°Ñ‚Ð° ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ';
+$MESS['SLAM_EASYFORM_ENTITY_NAME_FIELD'] = 'ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ„Ð¾Ñ€Ð¼Ñ‹';
+$MESS['SLAM_EASYFORM_ENTITY_C_FIELDS_FIELD'] = 'ÐŸÐ¾Ð»Ñ';
+$MESS["SLAM_EASYFORM_DEL"] = "Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹, Ñ‡Ñ‚Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ ÑƒÐ´Ð°Ð»Ð¸Ñ‚ÑŒ?";
+$MESS["SLAM_EASYFORM_DELETE"] = "Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ";
+$MESS["SLAM_EASYFORM_LIST"] = "ÐŸÑ€Ð¾Ð´ÑƒÐ¼Ð°Ð½Ð½Ð°Ñ Ñ„Ð¾Ñ€Ð¼Ð° Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸";
+$MESS["SLAM_EASYFORM_DELETE_ERROR"] = "ÐžÑˆÐ¸Ð±ÐºÐ° ÑƒÐ´Ð°Ð»ÐµÐ½Ð¸Ñ. Ð’Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ ÐµÑÑ‚ÑŒ ÑÑÑ‹Ð»Ð°ÑŽÑ‰Ð¸ÐµÑÑ Ð¾Ð±ÑŠÐµÐºÑ‚Ñ‹.";
+$MESS["SLAM_EASYFORM_GET_NAV_PRINT"] = "Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°";
