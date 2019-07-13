@@ -108,7 +108,7 @@ if (!class_exists("slam_easyform")) {
             }
 
             if (Directory::isDirectoryExists($path = $this->GetPath() . '/install/admin')) {
-                CopyDirFiles($this->GetPath() . "/install/admin/", $_SERVER["DOCUMENT_ROOT"] . "/bitrix/admin"); //åñëè åñòü ôàéëû äëÿ êîïèðîâàíèÿ
+                CopyDirFiles($this->GetPath() . "/install/admin/", $_SERVER["DOCUMENT_ROOT"] . "/bitrix/admin"); //ÐµÑÐ»Ð¸ ÐµÑÑ‚ÑŒ Ñ„Ð°Ð¹Ð»Ñ‹ Ð´Ð»Ñ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ
             }
 
             return true;
@@ -118,7 +118,7 @@ if (!class_exists("slam_easyform")) {
         {
             Directory::deleteDirectory($_SERVER["DOCUMENT_ROOT"] . '/bitrix/components/slam/easyform');
        
-            if (Directory::isDirectoryExists($path = $this->GetPath() . '/install/admin')) { // óäàëÿåì àäìèíèñòðàòèâíûå ôàéëû
+            if (Directory::isDirectoryExists($path = $this->GetPath() . '/install/admin')) { // ÑƒÐ´Ð°Ð»ÑÐµÐ¼ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¸Ð²Ð½Ñ‹Ðµ Ñ„Ð°Ð¹Ð»Ñ‹
                 DeleteDirFiles($_SERVER["DOCUMENT_ROOT"] . $this->GetPath() . '/install/admin/', $_SERVER["DOCUMENT_ROOT"] . '/bitrix/admin');
             }
 

@@ -1,4 +1,8 @@
 <?
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
 $arHeaders = array();
 global $APPLICATION;
 
@@ -15,7 +19,7 @@ foreach ($map as $field) {
         continue;
     }
 
-    $arHeaders[] = array("id" => $field->getName(), "content" => (loc::GetMessage("SLAM_EASYFORM_FIELD_{$field->getName()}") ?: $field->getTitle()), "sort" => $field->getName(), "default" => (count($arHeaders) < 6));
+    $arHeaders[] = array("id" => $field->getName(), "content" => (loc::GetMessage("EASY_FORM_FIELD_{$field->getName()}") ?: $field->getTitle()), "sort" => $field->getName(), "default" => (count($arHeaders) < 6));
 }
 
 $context = Application::getInstance()->getContext();
@@ -95,9 +99,9 @@ if (($arID = $lAdmin->GroupAction())) {
                     $DB->Rollback();
 
                     if($ex = $APPLICATION->GetException())
-                        $lAdmin->AddGroupError(GetMessage("SLAM_EASYFORM_DELETE_ERROR")." [".$ex->GetString()."]", $propID);
+                        $lAdmin->AddGroupError(GetMessage("EASY_FORM_DELETE_ERROR")." [".$ex->GetString()."]", $propID);
                     else
-                        $lAdmin->AddGroupError(GetMessage("SLAM_EASYFORM_DELETE_ERROR"), $propID);
+                        $lAdmin->AddGroupError(GetMessage("EASY_FORM_DELETE_ERROR"), $propID);
                 }
                 $DB->Commit();
                 break;
@@ -121,7 +125,7 @@ $lAdmin->AddHeaders($arHeaders);
 $rsData = new CAdminResult($rsData, $sTableID);
 $rsData->NavStart();
 
-$lAdmin->NavText($rsData->GetNavPrint(Loc::GetMessage("SLAM_EASYFORM_GET_NAV_PRINT")));
+$lAdmin->NavText($rsData->GetNavPrint(Loc::GetMessage("EASY_FORM_GET_NAV_PRINT")));
 
 $events = array();
 while ($arRes = $rsData->Fetch()) {
@@ -139,7 +143,7 @@ while ($arRes = $rsData->Fetch()) {
     }
 
     $contentMenu = array(
-        array("ICON" => "delete", "TEXT" => Loc::GetMessage("SLAM_EASYFORM_DELETE"), "ACTION" => "if(confirm('" . Loc::GetMessage("SLAM_EASYFORM_DEL") . "')) " . $lAdmin->ActionDoGroup($arRes["ID"], "delete")),
+        array("ICON" => "delete", "TEXT" => Loc::GetMessage("EASY_FORM_DELETE"), "ACTION" => "if(confirm('" . Loc::GetMessage("EASY_FORM_DEL") . "')) " . $lAdmin->ActionDoGroup($arRes["ID"], "delete")),
 
     );
 
@@ -147,7 +151,7 @@ while ($arRes = $rsData->Fetch()) {
 
     foreach ($arRes as $key => $val) {
         if($key == 'ACTIVE') {
-            $row->AddViewField($key, ($arRes[$key] == 'Y'  ? 'Äà' : 'Íåò') );
+            $row->AddViewField($key, ($arRes[$key] == 'Y'  ? 'Ğ”Ğ°' : 'ĞĞµÑ‚') );
         } elseif($key == 'FIELDS') {
             $str = '';
             foreach($arRes[$key] as $code => $txt){
@@ -189,7 +193,7 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_ad
                 continue;
             }
 
-            $propsArray["FINDBY[{$field->getName()}]"] = (loc::GetMessage("SLAM_EASYFORM_FIELD_{$field->getName()}") ?: $field->getTitle());
+            $propsArray["FINDBY[{$field->getName()}]"] = (loc::GetMessage("EASY_FORM_FIELD_{$field->getName()}") ?: $field->getTitle());
 
         }
         $oFilter = new CAdminFilter($sTableID . "_filter", $propsArray);
@@ -202,7 +206,7 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_ad
 
             ?>
             <tr>
-                <td><?= (loc::GetMessage("SLAM_EASYFORM_FIELD_{$field->getName()}") ?: $field->getTitle()) ?>:</td>
+                <td><?= (loc::GetMessage("EASY_FORM_FIELD_{$field->getName()}") ?: $field->getTitle()) ?>:</td>
                 <td>
                     <?
                     switch (get_class($field)):
@@ -238,8 +242,8 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_ad
                             if($field->getName() == 'NAME'){
                                 $values = array();
                                 $values[''] = "--//--";
-                                if(Loader::IncludeModule("slam.easyform")) {
-                                    $tblObj = new Slam\Easyform\EasyformTable();
+                                if(Loader::IncludeModule("easy.form")) {
+                                    $tblObj = new Easy\Form\EasyFormTable();
                                     $queryObj = $tblObj->query();
                                     $rsData = $queryObj
                                         ->setSelect(array('NAME', 'ID'))
@@ -248,12 +252,12 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_ad
                                     while ($arRes = $rsData->Fetch()) {
                                         $values[$arRes['NAME']] = $arRes['NAME'];
                                     }
-                                ?>
-                                <select name="<?= "FINDBY[{$field->getName()}]"; ?>">
-                                    <? foreach ($values as $valueID => $valueName): ?>
-                                        <option value="<?= $valueID ?>" <?= $arValues[$field->getName()] == $valueID ? "selected" : "" ?> ><?= $valueName ?></option>
-                                    <? endforeach; ?>
-                                </select>
+                                    ?>
+                                    <select name="<?= "FINDBY[{$field->getName()}]"; ?>">
+                                        <? foreach ($values as $valueID => $valueName): ?>
+                                            <option value="<?= $valueID ?>" <?= $arValues[$field->getName()] == $valueID ? "selected" : "" ?> ><?= $valueName ?></option>
+                                        <? endforeach; ?>
+                                    </select>
                                     <?
                                 }
                             } else {

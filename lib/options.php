@@ -1,5 +1,9 @@
 <?
-namespace Slam\Easyform;
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+namespace Easy\Form;
 use \Bitrix\Main\Localization\Loc;
 Loc::loadMessages(__FILE__);
 
@@ -26,9 +30,9 @@ class Options
         if($need_access_tab)
             $this->arTabs[] = array(
                 'DIV' => 'edit_access_tab',
-                'TAB' => Loc::getMessage('SLAM_EASYFORM_EDIT_ACCESS_TAB'),
+                'TAB' => Loc::getMessage('EASY_FORM_EDIT_ACCESS_TAB'),
                 'ICON' => '',
-                'TITLE' => Loc::getMessage('SLAM_EASYFORM_EDIT_ACCESS_TITLE'),
+                'TITLE' => Loc::getMessage('EASY_FORM_EDIT_ACCESS_TITLE'),
             );
 
         if($_REQUEST['update'] == 'Y' && check_bitrix_sessid()){
@@ -306,8 +310,8 @@ class Options
             $tabControl->Buttons();
 
             echo     '<input type="hidden" name="update" value="Y" />
-                                      <input type="submit" name="save" value="'.Loc::getMessage('SLAM_EASYFORM_SAVE').'" />
-                                      <input type="reset" name="reset" value="'.Loc::getMessage('SLAM_EASYFORM_RESET').'" />';
+                                      <input type="submit" name="save" value="'.Loc::getMessage('EASY_FORM_SAVE').'" />
+                                      <input type="reset" name="reset" value="'.Loc::getMessage('EASY_FORM_RESET').'" />';
 
             $tabControl->End();
 

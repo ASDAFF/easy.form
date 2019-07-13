@@ -1,5 +1,9 @@
 <?
-$MESS['SLAM_EASYFORM_EDIT_ACCESS_TAB'] = 'Ïðàâà äîñòóïà';
-$MESS['SLAM_EASYFORM_EDIT_ACCESS_TITLE'] = 'Íàñòðîéêà ïðàâ äîñòóïà';
-$MESS['SLAM_EASYFORM_SAVE'] = 'Ñîõðàíèòü';
-$MESS['SLAM_EASYFORM_RESET'] = 'Îòìåíèòü';
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+$MESS['EASY_FORM_EDIT_ACCESS_TAB'] = 'ÐŸÑ€Ð°Ð²Ð° Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð°';
+$MESS['EASY_FORM_EDIT_ACCESS_TITLE'] = 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ° Ð¿Ñ€Ð°Ð² Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð°';
+$MESS['EASY_FORM_SAVE'] = 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ';
+$MESS['EASY_FORM_RESET'] = 'ÐžÑ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ';

@@ -1,5 +1,9 @@
 <?
-$MESS["SLAM_EASYFORM_MAIN_OPTION"] = "Îáùèå ïàðàìåòðû";
-$MESS["SLAM_ERROR"] = "Îáíàðóæåíû îøèáêè";
-$MESS["SLAM_EASYFORM_LIST"] = "SLAM: ðåçóëüòàòû ôîðì îáðàòíîé ñâÿçè";
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+$MESS["EASY_FORM_MAIN_OPTION"] = "ÐžÐ±Ñ‰Ð¸Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹";
+$MESS["EASY_FORM_ERROR"] = "ÐžÐ±Ð½Ð°Ñ€ÑƒÐ¶ÐµÐ½Ñ‹ Ð¾ÑˆÐ¸Ð±ÐºÐ¸";
+$MESS["EASY_FORM_LIST"] = "Easy Form: Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ Ñ„Ð¾Ñ€Ð¼ Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸";
 include 'install/index.php';

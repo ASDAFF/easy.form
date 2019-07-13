@@ -1,4 +1,8 @@
 <?
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
 use \Bitrix\Main\Localization\Loc;
 use \Bitrix\Main\EventManager;
 use \Bitrix\Main\ModuleManager;
@@ -7,7 +11,7 @@ use \Bitrix\Main\Loader;
 use \Bitrix\Main\IO\File;
 use \Bitrix\Main\IO\Directory;
 use \Bitrix\Main\Entity\Base;
-use \Slam\Easyform\Main;
+use \Easy\Form\Main;
 use \Bitrix\Main\Application;
 use \Bitrix\Main\Config as Conf;
 
@@ -18,12 +22,12 @@ $strPath2Lang = substr($strPath2Lang, 0, strlen($strPath2Lang)-strlen("/install/
 include(GetLangFileName($strPath2Lang."/lang/", "/install.php"));
 
 
-if (!class_exists("slam_easyform")) {
+if (!class_exists("easy_form")) {
 
-    class slam_easyform extends CModule
+    class easy_form extends CModule
     {
-        const MODULE_ID = 'slam.easyform';
-        var $MODULE_ID = "slam.easyform";
+        const MODULE_ID = 'easy.form';
+        var $MODULE_ID = "easy.form";
         var $MODULE_VERSION;
         var $MODULE_VERSION_DATE;
         var $MODULE_NAME;
@@ -40,10 +44,10 @@ if (!class_exists("slam_easyform")) {
                 $this->MODULE_VERSION_DATE = $arModuleVersion["VERSION_DATE"];
             }
 
-            $this->MODULE_NAME = GetMessage("SLAM_EASYFORM_MODULE_NAME");
-            $this->MODULE_DESCRIPTION = GetMessage("SLAM_EASYFORM_MODULE_DESCRIPTION");
-            $this->PARTNER_NAME = GetMessage("SLAM_EASYFORM_PARTNER_NAME");
-            $this->PARTNER_URI = GetMessage("SLAM_EASYFORM_PARTNER_URI");
+            $this->MODULE_NAME = GetMessage("EASY_FORM_MODULE_NAME");
+            $this->MODULE_DESCRIPTION = GetMessage("EASY_FORM_MODULE_DESCRIPTION");
+            $this->PARTNER_NAME = GetMessage("EASY_FORM_PARTNER_NAME");
+            $this->PARTNER_URI = GetMessage("EASY_FORM_PARTNER_URI");
             $this->MODULE_SORT = 1;
         }
 
@@ -71,8 +75,8 @@ if (!class_exists("slam_easyform")) {
         {
             Loader::includeModule($this->MODULE_ID);
 
-            if (!Application::getConnection(\Slam\Easyform\EasyformTable::getConnectionName())->isTableExists(Base::getInstance('\Slam\Easyform\EasyformTable')->getDBTableName())) {
-                Base::getInstance('\Slam\Easyform\EasyformTable')->createDbTable();
+            if (!Application::getConnection(\Easy\Form\EasyFormTable::getConnectionName())->isTableExists(Base::getInstance('\Easy\Form\EasyFormTable')->getDBTableName())) {
+                Base::getInstance('\Easy\Form\EasyFormTable')->createDbTable();
             }
             return true;
         }
@@ -81,7 +85,7 @@ if (!class_exists("slam_easyform")) {
         {
             Loader::includeModule($this->MODULE_ID);
             // Drop PersonTable
-            Application::getConnection(\Slam\Easyform\EasyformTable::getConnectionName())->queryExecute('drop table if exists ' . Base::getInstance('\Slam\Easyform\EasyformTable')->getDBTableName());
+            Application::getConnection(\Easy\Form\EasyFormTable::getConnectionName())->queryExecute('drop table if exists ' . Base::getInstance('\Easy\Form\EasyFormTable')->getDBTableName());
 
             Option::delete($this->MODULE_ID);
         }
@@ -108,7 +112,7 @@ if (!class_exists("slam_easyform")) {
             }
 
             if (Directory::isDirectoryExists($path = $this->GetPath() . '/install/admin')) {
-                CopyDirFiles($this->GetPath() . "/install/admin/", $_SERVER["DOCUMENT_ROOT"] . "/bitrix/admin"); //åñëè åñòü ôàéëû äëÿ êîïèðîâàíèÿ
+                CopyDirFiles($this->GetPath() . "/install/admin/", $_SERVER["DOCUMENT_ROOT"] . "/bitrix/admin");  //ÐµÑÐ»Ð¸ ÐµÑÑ‚ÑŒ Ñ„Ð°Ð¹Ð»Ñ‹ Ð´Ð»Ñ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ
             }
 
             return true;
@@ -116,9 +120,9 @@ if (!class_exists("slam_easyform")) {
 
         function UnInstallFiles()
         {
-            Directory::deleteDirectory($_SERVER["DOCUMENT_ROOT"] . '/bitrix/components/slam/easyform');
+            Directory::deleteDirectory($_SERVER["DOCUMENT_ROOT"] . '/bitrix/components/easy/form');
        
-            if (Directory::isDirectoryExists($path = $this->GetPath() . '/install/admin')) { // óäàëÿåì àäìèíèñòðàòèâíûå ôàéëû
+            if (Directory::isDirectoryExists($path = $this->GetPath() . '/install/admin')) { // ÑƒÐ´Ð°Ð»ÑÐµÐ¼ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¸Ð²Ð½Ñ‹Ðµ Ñ„Ð°Ð¹Ð»Ñ‹
                 DeleteDirFiles($_SERVER["DOCUMENT_ROOT"] . $this->GetPath() . '/install/admin/', $_SERVER["DOCUMENT_ROOT"] . '/bitrix/admin');
             }
 
@@ -144,13 +148,13 @@ if (!class_exists("slam_easyform")) {
 				while ($site = $dbSites->fetch()) {
 					\Bitrix\Main\Config\Option::set($this->MODULE_ID, "SHOW_MESSAGE", 'Y', $site['LID']);
 					\Bitrix\Main\Config\Option::set($this->MODULE_ID, "EMAIL", \Bitrix\Main\Config\Option::get("main", "email_from", ""), $site['LID']);
-					\Bitrix\Main\Config\Option::set($this->MODULE_ID, "MESSAGE_TEXT", Loc::getMessage('SLAM_OPTION_MESSAGE_TEXT_DEFAULT'), $site['LID']);
+					\Bitrix\Main\Config\Option::set($this->MODULE_ID, "MESSAGE_TEXT", Loc::getMessage('EASY_FORM_OPTION_MESSAGE_TEXT_DEFAULT'), $site['LID']);
 				}
 
 			} else {
-				$APPLICATION->ThrowException(GetMessage("SLAM_EASYFORM_INSTALL_ERROR_VERSION"));
+				$APPLICATION->ThrowException(GetMessage("EASY_FORM_INSTALL_ERROR_VERSION"));
 			}
-			$APPLICATION->IncludeAdminFile(GetMessage("SLAM_EASYFORM_INSTALL_TITLE"), $this->GetPath() . "/install/step1.php");
+			$APPLICATION->IncludeAdminFile(GetMessage("EASY_FORM_INSTALL_TITLE"), $this->GetPath() . "/install/step1.php");
             
         }
 

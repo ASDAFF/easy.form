@@ -1,2 +1,6 @@
 <?
-$MESS["SLAM_EASYFORM_MODULE"] = "SLAM: ðåçóëüòàòû ôîðì îáðàòíîé ñâÿçè";
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+$MESS["EASY_FORM_MODULE"] = "Easy Form: Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ Ñ„Ð¾Ñ€Ð¼ Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸";

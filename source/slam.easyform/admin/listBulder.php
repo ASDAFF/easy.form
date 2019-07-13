@@ -147,7 +147,7 @@ while ($arRes = $rsData->Fetch()) {
 
     foreach ($arRes as $key => $val) {
         if($key == 'ACTIVE') {
-            $row->AddViewField($key, ($arRes[$key] == 'Y'  ? 'Äà' : 'Íåò') );
+            $row->AddViewField($key, ($arRes[$key] == 'Y'  ? 'Ð”Ð°' : 'ÐÐµÑ‚') );
         } elseif($key == 'FIELDS') {
             $str = '';
             foreach($arRes[$key] as $code => $txt){

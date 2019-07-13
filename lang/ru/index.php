@@ -1,9 +1,13 @@
 <?
-$MESS["SLAM_EASYFORM_PARTNER_NAME"] = "S.L.A.M.";
-$MESS["SLAM_EASYFORM_PARTNER_URI"] = "https://slam.by";
-$MESS["SLAM_EASYFORM_MODULE_NAME"] = "SLAM: продуманная форма обратной связи";
-$MESS["SLAM_EASYFORM_MODULE_DESCRIPTION"] = "Модуль представляет собой удобное решение для реализации форм обратной связи";
-$MESS["SLAM_EASYFORM_INSTALL_TITLE"] = "Установка модуля \"{$MESS["SLAM_EASYFORM_MODULE_NAME"] }\"";
-$MESS["SLAM_EASYFORM_UNINSTALL_ERROR"] = "Обнаружены ошибки при удалении модуля";
-$MESS["SLAM_OPTION_MESSAGE_TEXT_DEFAULT"] = 'Нажимая на кнопку "#BUTTON#", вы даете согласие на обработку <a target="_blank" href="#">персональных данных</a>';
-$MESS["SLAM_INSTAL_SAVE"] = 'Сохранить';
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+$MESS["EASY_FORM_PARTNER_NAME"] = "ASDAFF";
+$MESS["EASY_FORM_PARTNER_URI"] = "https://asdaff.github.io";
+$MESS["EASY_FORM_MODULE_NAME"] = "РќР°СЃС‚СЂР°РёРІР°РµРјР°СЏ С„РѕСЂРјР° РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё";
+$MESS["EASY_FORM_MODULE_DESCRIPTION"] = "РњРѕРґСѓР»СЊ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ СѓРґРѕР±РЅРѕРµ СЂРµС€РµРЅРёРµ РґР»СЏ СЂРµР°Р»РёР·Р°С†РёРё С„РѕСЂРј РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё";
+$MESS["EASY_FORM_INSTALL_TITLE"] = "РЈСЃС‚Р°РЅРѕРІРєР° РјРѕРґСѓР»СЏ \"{$MESS["EASY_FORM_MODULE_NAME"] }\"";
+$MESS["EASY_FORM_UNINSTALL_ERROR"] = "РћР±РЅР°СЂСѓР¶РµРЅС‹ РѕС€РёР±РєРё РїСЂРё СѓРґР°Р»РµРЅРёРё РјРѕРґСѓР»СЏ";
+$MESS["EASY_FORM_OPTION_MESSAGE_TEXT_DEFAULT"] = 'РќР°Р¶РёРјР°СЏ РЅР° РєРЅРѕРїРєСѓ "#BUTTON#", РІС‹ РґР°РµС‚Рµ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ <a target="_blank" href="#">РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a>';
+$MESS["EASY_FORM_INSTAL_SAVE"] = 'РЎРѕС…СЂР°РЅРёС‚СЊ';

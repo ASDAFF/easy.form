@@ -1,9 +1,13 @@
 <?
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
 use \Bitrix\Main\Localization\Loc;
 use \Bitrix\Main\Loader;
 Loc::loadMessages(__FILE__);
 
-$module_id = 'slam.easyform';
+$module_id = 'easy.form';
 $MOD_RIGHT = $APPLICATION->getGroupRight($module_id);
 if ($MOD_RIGHT < 'R')
 	return;
@@ -82,9 +86,9 @@ while ($site = $dbSites->fetch()) {
 $arOptions = $arOptionsSite;
 
 
-$module_id = 'slam.easyform';
+$module_id = 'easy.form';
 if(Loader::IncludeModule($module_id)){
-    $opt = new \Slam\Easyform\Options($module_id, $aSitesTabs, $arTabs, $arGroups, $arOptions, $showRightsTab);
+    $opt = new \Easy\Form\Options($module_id, $aSitesTabs, $arTabs, $arGroups, $arOptions, $showRightsTab);
     $opt->ShowHTML();
 }
 ?>

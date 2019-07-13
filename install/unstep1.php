@@ -1,4 +1,8 @@
 <?
+/**
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
 use \Bitrix\Main\Localization\Loc;
 if (!check_bitrix_sessid())
     return;
@@ -7,7 +11,7 @@ Loc::loadMessages(__FILE__);
 <form action="<?echo $APPLICATION->GetCurPage()?>">
     <?=bitrix_sessid_post()?>
     <input type="hidden" name="lang" value="<?echo LANGUAGE_ID?>">
-    <input type="hidden" name="id" value="slam.easyform">
+    <input type="hidden" name="id" value="easy.form">
     <input type="hidden" name="uninstall" value="Y">
     <input type="hidden" name="step" value="2">
     <?echo CAdminMessage::ShowMessage(Loc::getMessage("MOD_UNINST_WARN"))?>

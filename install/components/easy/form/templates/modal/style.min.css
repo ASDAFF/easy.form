@@ -1,0 +1,5 @@
+/*
+ * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+.easy-form .modal{text-align:center}@media screen and (min-width:768px){.easy-form .modal:before{display:inline-block;vertical-align:middle;content:" ";height:100%}}.easy-form .modal-dialog{display:inline-block;text-align:left;vertical-align:middle}.easy-form .modal .modal-header .title{margin:0;font-size:22px;display:inline-block}.hide-formvalidation small.help-block{display:none!important}@keyframes spinner{to{transform:rotate(360deg)}}.easy-form .spinner,.easy-form .spinner:hover{position:relative;color:transparent}.easy-form .spinner:before{content:'';box-sizing:border-box;position:absolute;top:50%;left:50%;width:20px;height:20px;margin-top:-10px;margin-left:-10px;border-radius:50%;border:2px solid #ccc;border-top-color:#333;animation:spinner .6s linear infinite}
