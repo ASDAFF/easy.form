@@ -26,7 +26,7 @@ if ($MODULE_RIGHT == "D")
     $APPLICATION->AuthForm(Loc::GetMessage("ACCESS_DENIED"));
 
 
-$tblObj = new EasyForm\EasyFormTable();
+$tblObj = new Form\EasyFormTable();
 $queryObj = $tblObj->query();
 $map = $tblObj->getMap();
 
