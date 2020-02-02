@@ -72,6 +72,4 @@
  
  ``OnAfterAdditionalMessage(&$arAdditionalMessage, &$arParams, $idElement, $arPostFields)`` - после отправки письма
  
- Пример использования наших событий https://s.mail.ru/FY46/oVz35dnHd
- 
  Инструкция по работе с событиями в Битрикс https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=3493&LESSON_PATH=3913.4619.3493
