@@ -1,6 +1,6 @@
 <?
 /**
- * Copyright (c) 2019 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ * Copyright (c) 2021 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
  */
 
 if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
@@ -25,6 +25,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 use Bitrix\Main;
 use Bitrix\Main\Loader;
 use Bitrix\Main\Application;
+use Bitrix\Main\Page\Asset;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\Web\Json;
 use Bitrix\Main\Config\Option;
@@ -600,12 +601,14 @@ if ($arParams["USE_CAPTCHA"] && !defined("EASY_FORM_RE_CAPTCHA_INCLUDE")) {
 }
 
 if ($arParams["USE_JQUERY"] && !defined("EASY_FORM_JQUERY_INCLUDE")) {
-    $APPLICATION->AddHeadScript($componentPath . '/lib/js/jquery-1.12.4.min.js');
+//    $APPLICATION->AddHeadScript($componentPath . '/lib/js/jquery-1.12.4.min.js');
+    Asset::getInstance()->addJs($componentPath . '/lib/js/jquery-1.12.4.min.js');
     define("EASY_FORM_JQUERY_INCLUDE", "Y");
 }
 
 if ($arParams["USE_BOOTSRAP_JS"] == 'Y' && !defined("EASY_FORM_BOOTSTRAP_JS_INCLUDE")) {
-    $APPLICATION->AddHeadScript($componentPath . '/lib/js/bootstrap.min.js');
+//    $APPLICATION->AddHeadScript($componentPath . '/lib/js/bootstrap.min.js');
+    Asset::getInstance()->addJs($componentPath . '/lib/js/bootstrap.min.js');
     define("EASY_FORM_BOOTSTRAP_JS_INCLUDE", "Y");
 }
 
